@@ -27,8 +27,6 @@ GEM
       simpleidn (~> 0.2.1)
     drb (2.1.1)
       ruby2_keywords
-    elixir-toolkit-theme (1.26.0)
-      jekyll (~> 3.9)
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
@@ -264,18 +262,19 @@ GEM
     unf_ext (0.0.8.2)
     unicode-display_width (1.8.0)
     wdm (0.1.1)
+    webrick (1.8.1)
 
 PLATFORMS
   x64-mingw-ucrt
 
 DEPENDENCIES
-  elixir-toolkit-theme
   github-pages (~> 228)
   http_parser.rb (~> 0.6.0)
   jekyll-feed (~> 0.12)
   tzinfo (>= 1, < 3)
   tzinfo-data
   wdm (~> 0.1.1)
+  webrick (~> 1.8)
 
 BUNDLED WITH
    2.4.20
